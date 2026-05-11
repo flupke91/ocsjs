@@ -1,4 +1,4 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name       				OCS 网课助手 - 全域名通用版（节省题库次数）
 // @version    				4.12.14
 // @description				OCS(online-course-script) 网课助手，官网 https://docs.ocsjs.com ，专注于帮助大学生从网课中释放出来 让自己的时间把握在自己的手中，拥有人性化的操作页面，流畅的步骤提示，支持  【超星学习通】 【知到智慧树】 【职教云】 【智慧职教】 【中国大学MOOC】 等网课的学习，作业。具体的功能请查看脚本悬浮窗中的教程页面。基于 [enncy] 修改，1.有多个题库时，按照提供的题库顺序进行题库搜索，如a题库搜索到答案后b题库不使用，避免b题库次数浪费。2.当a题库提示“此题未完成，可能是没有匹配的选项。”时，调用b题库。遵循原MIT许可
@@ -19944,4 +19944,3 @@ const infos = GM_info;
 				: 'https://scriptcat.org/zh-CN/script-show-page/1398'
 	});
 })();
-
